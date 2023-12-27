@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta name="Watch" content="width=device-width, initial-scale=1.0">
+  <title>Digital clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div id="clock"></div>
+        <input onchange="setAlarmTime(this.value)"name="alarmTime" type="datetime-local">
+        <DIV class="controls">
+            <button onclick="setAlarm()"class="buttom set-alarm">set-alarm</button>
+            <button onclick="clearAlarm() "class="buttom set-alarm">clear-alarm</button>
+
+        </div>
+    </section>
+  
+ 
+  <script src="js.js"></script>
+</body>
+</html>
